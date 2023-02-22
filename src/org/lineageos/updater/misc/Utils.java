@@ -150,7 +150,7 @@ public class Utils {
     public static String getServerURL(Context context) {
         String device = SystemProperties.get(Constants.PROP_NEXT_DEVICE,
                 SystemProperties.get(Constants.PROP_DEVICE));
-        String distro = SystemProperties.get(Constants.PROP_ROM_DISTRO)
+        String distro = SystemProperties.get(Constants.PROP_ROM_DISTRO);
         String type = SystemProperties.get(Constants.PROP_RELEASE_TYPE).toLowerCase(Locale.ROOT);
 
         String serverUrl = SystemProperties.get(Constants.PROP_UPDATER_URI);
