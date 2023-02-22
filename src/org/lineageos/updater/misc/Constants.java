@@ -42,6 +42,7 @@ public final class Constants {
     public static final String PROP_BUILD_VERSION = "ro.hana.build.version";
     public static final String PROP_DEVICE = "ro.hana.device";
     public static final String PROP_NEXT_DEVICE = "ro.updater.next_device";
+    public static final String PROP_ROM_DISTRO = "ro.hana.romdistro"
     public static final String PROP_RELEASE_TYPE = "ro.hana.buildtype";
     public static final String PROP_UPDATER_ALLOW_DOWNGRADING = "hana.updater.allow_downgrading";
     public static final String PROP_UPDATER_URI = "hana.updater.uri";
